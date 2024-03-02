@@ -190,7 +190,7 @@ function checkreset(){
 
 </script>
 <body>
-	<form method="post" name="memberForm"  action="${contextPath}/member/addMember.do">
+	<form method="post" name="memberForm"  action="${contextPath}/member/addMember.do" enctype="multipart/form-data">
 	<h1  class="text_center">회원 가입창</h1>
 	<table  align="center">
 	   <tr>
