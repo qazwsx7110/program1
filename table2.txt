@@ -9,3 +9,5 @@ board_no number not null
 create sequence replyes_seq;
 
 alter table tbl_replyes add constraint replyes_pk primary key (reply_no);
+
+user_resp
