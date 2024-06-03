@@ -1,7 +1,0 @@
-create table emp(
-emp_no number primary key
-,emp_name VARCHAR2(40) not null,
-emp_phone VARCHAR2(12) not null,
-email VARCHAR2(30) not null,
-hire_date date DEFAULT sysdate,
-salary number);
